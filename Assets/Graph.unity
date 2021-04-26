@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obs: {fileID: 6530194659791502630, guid: 9d17f0383b05b8d439d620d12932e598, type: 3}
-  spawnDelay: 2
+  spawnDelay: 2.3
 --- !u!4 &111644985
 Transform:
   m_ObjectHideFlags: 0
@@ -464,7 +464,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.11906175, g: 0.09208496, b: 0.1509434, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -577,7 +577,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 46.081726, y: -36.341064}
+  m_AnchoredPosition: {x: 70.1, y: -57.1}
   m_SizeDelta: {x: 208.4966, y: 44.6821}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1095358821

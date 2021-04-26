@@ -201,6 +201,7 @@ GameObject:
   - component: {fileID: 6530194659791502616}
   - component: {fileID: 6530194659791502631}
   - component: {fileID: 1161912642785505316}
+  - component: {fileID: 6214159704763642224}
   m_Layer: 0
   m_Name: Obs
   m_TagString: AddScore
@@ -250,3 +251,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8654741, y: 5.099615, z: 1}
   m_Center: {x: 0.02277559, y: 0.86547434, z: 0}
+--- !u!114 &6214159704763642224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6530194659791502630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 165bc5ff9d4eb2445aafdd6575307bac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
