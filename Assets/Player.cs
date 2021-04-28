@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -9,6 +11,8 @@ public class Player : MonoBehaviour
     public float jumpPower = 5;
     public int score = 0;
     public TextMeshProUGUI scoreText;
+    public GameObject gameOverPanel;
+    public Text endScoreText;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +33,7 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.tag == "AddScore")
         {
-            score++;
+            score+=50;
             scoreText.text = score.ToString();
         }
 
@@ -37,7 +41,20 @@ public class Player : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Obs")
-        Application.LoadLevel(Application.loadedLevel);
+        if (collision.gameObject.tag == "Obs")
+            EndGame();
+        //Application.LoadLevel(Application.loadedLevel);
+    }
+
+    void EndGame()
+    {
+        Time.timeScale = 0;
+        endScoreText.text = "Your Score:" + score;
+        gameOverPanel.SetActive(true);
+    }
+
+    public void PlayAgain() {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
