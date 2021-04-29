@@ -21,6 +21,6 @@ Fly the ball as far as you can without hitting the pipe.
 ---
 
 ### Transfer the project to Android
-<img src="img/Danit.gif" width=700>
+<img src="img/Danit.gif" width=300>
 
 ---
