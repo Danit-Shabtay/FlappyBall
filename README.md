@@ -16,6 +16,11 @@ Fly the ball as far as you can without hitting the pipe.
 
 ---
 
+### Shader graph
+<img src="img/shaderGraph.png" width=700>
+
+---
+
 ### Demo
 <img src="img/FlappyBall.gif" width=700>
 
