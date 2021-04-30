@@ -1,7 +1,7 @@
 ﻿## Flappy Ball
 
 ### Background
-Computer game using Unity, based on flappy bird game. 🐤
+Unity game for PC and Android, based on flappy bird game. 🐤
 Fly the ball as far as you can without hitting the pipe.
 
 ---
