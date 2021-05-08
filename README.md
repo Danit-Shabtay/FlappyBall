@@ -17,7 +17,7 @@ Fly the ball as far as you can without hitting the pipe.
 ---
 
 ### Shader graph
-<img src="img/shaderGraph.png" width=700>
+<img src="img/shaderGraph.gif" width=700>
 
 ---
 
